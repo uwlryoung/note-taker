@@ -2,15 +2,6 @@ const notes = require('express').Router;
 const { readFile, writeFile } = require("fs").promises;
 const { v4: uuidv4 } = require('uuid');
 
-// const {
-//   readFromFile,
-//   readAndAppend,
-//   writeToFile,
-// } = require('../helpers/fsUtils');
-
-
-// Make a get, post and a delete here
-
 // GET Route for retreiving all notes
 notes.get('/', (req, res) => {
   readFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
@@ -30,6 +21,16 @@ notes.get('/:note_id', (req, res) => {
 })
 
 // DELETE Route for a specific note
+notes.delete('/:note_id', (req, res) => {
+  const noteId = req.params.note_id;
+  readFile('./db/db.json')
+    .then((data) => JSON.parse(data))
+    .then((json) => {
+      const result = json.filter((note) => note.note_id !== noteId); 
+      writeFile('./db/db.json', result);
+      res.json(`Note ${noteId} has been deleted.`)
+    });
+})
 
 // POST Route for a new note
 notes.post('/', (req, res) => {
