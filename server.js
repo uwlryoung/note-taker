@@ -20,11 +20,12 @@ app.get('/', (req, res) =>
 
 // Notes Page
 app.get('/notes', (req, res) => 
-  res.sendFile(path.join(__dirname, 'public/pages/notes.js'))
+  res.sendFile(path.join(__dirname, 'public/pages/notes.html'))
 );
 
+//Wildcard
 app.get('*', (req, res) => 
-  res.sendFile(path.join(__dirname, 'public/pages/index.js'))
+  res.sendFile(path.join(__dirname, 'public/pages/index.html'))
 );
 
 app.listen(PORT, () =>

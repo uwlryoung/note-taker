@@ -12,8 +12,8 @@ notes.get('/', (req, res) => {
 });
 
 // GET Route for a specific tip
-notes.get('/:note_id', (req, res) => {
-  const noteId = req.params.note_id;
+notes.get('/:title', (req, res) => {
+  const noteId = req.params.title;
   readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
@@ -25,7 +25,7 @@ notes.get('/:note_id', (req, res) => {
 });
 
 // DELETE Route for a specific tip
-notes.delete('/:tip_id', (req, res) => {
+notes.delete('/:note_id', (req, res) => {
   const noteId = req.params.note_id;
   readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
