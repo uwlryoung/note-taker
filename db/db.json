@@ -1,37 +1,22 @@
 [
     {
-        "title": "Try this one again",
-        "text": "YEAH",
-        "note_id": "166ab62c-5576-4622-bb12-7d0d433baf29"
+        "title": "SQL - Insert Values",
+        "text": "This is how you insert values",
+        "id": "78b887e1-c55e-40e2-9c27-7d0e518d4881"
     },
     {
-        "title": "We need to work on rendeerin",
-        "text": "GOTTA RENDER IT!",
-        "note_id": "9eac3baa-c4a5-427b-976c-2faae1e7e4ac"
+        "title": "Sweet my notetaker!",
+        "text": "My note taker is working!",
+        "id": "d779d6bf-8a3a-42bf-a99b-0fcbe60f3005"
     },
     {
-        "title": "Try again?!",
-        "text": "What?!",
-        "note_id": "c8428bd1-a2b7-4547-8b8f-a075b5cf3618"
+        "title": "I wonder why it wasn't",
+        "text": "working initially...",
+        "id": "fac6fa12-42b1-4382-978b-292a020c06bd"
     },
     {
-        "title": "Add a note!",
-        "text": "This is another note",
-        "note_id": "430c5a61-35c1-47f7-a329-7bbe65024c49"
-    },
-    {
-        "title": "Hmmmmm",
-        "text": "YEAALKDLKJDF:LKJ\n",
-        "note_id": "bf4c9e0f-b98d-4a94-a953-dd15156bff1c"
-    },
-    {
-        "title": "This is another note",
-        "text": "YEAH",
-        "note_id": "9a856609-740b-4fc4-8cf6-861e650170a0"
-    },
-    {
-        "title": "Why did that not show up?",
-        "text": "Hmmmm.",
-        "note_id": "bedb6d18-2f78-4713-b13e-0ed4cf1b098e"
+        "title": "Oh. ",
+        "text": "Now I have to add this to heroku.... ",
+        "id": "20d5c73f-fa7c-4056-a3ce-7e9656f4ca6b"
     }
 ]
