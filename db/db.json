@@ -1,22 +1,22 @@
 [
     {
-        "title": "SQL - Insert Values",
-        "text": "This is how you insert values",
-        "id": "78b887e1-c55e-40e2-9c27-7d0e518d4881"
+        "title": "Finish Module 12 Homework",
+        "text": "Homework for Module 12 is due on August 10th.",
+        "id": "3cdde1d5-ea50-46b8-b3d5-262d61b7f238"
     },
     {
-        "title": "Sweet my notetaker!",
-        "text": "My note taker is working!",
-        "id": "d779d6bf-8a3a-42bf-a99b-0fcbe60f3005"
+        "title": "House-sitting for Friend",
+        "text": "Feed Kate's cat on a daily basis and water plants once a week. ",
+        "id": "7382ff9a-c518-4f40-b028-68c888b0b701"
     },
     {
-        "title": "I wonder why it wasn't",
-        "text": "working initially...",
-        "id": "fac6fa12-42b1-4382-978b-292a020c06bd"
+        "title": "Sign up for Soccer",
+        "text": "Volo league soccer's deadline to sign up is August 25th!",
+        "id": "c0f706c8-0374-40f8-85a4-e2dfa0c61084"
     },
     {
-        "title": "Oh. ",
-        "text": "Now I have to add this to heroku.... ",
-        "id": "20d5c73f-fa7c-4056-a3ce-7e9656f4ca6b"
+        "title": "Doctor's Appointment",
+        "text": "Make a doctor's appointment for annual checkup.",
+        "id": "79a4bd97-baaa-485c-b7c0-bd27a33a1e81"
     }
 ]

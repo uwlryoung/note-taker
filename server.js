@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3001
 
 const app = express();
 
-// Import any middleware here
+// Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
@@ -23,7 +23,7 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, 'public/pages/notes.html'))
 );
 
-//Wildcard
+// Wildcard - Redirects users to the index/start landing page if the link isn't found.
 app.get('*', (req, res) => 
   res.sendFile(path.join(__dirname, 'public/pages/index.html'))
 );

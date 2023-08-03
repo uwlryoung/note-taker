@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/License-MIT_License-blue.svg)
   
   ## Description
-  Users Note Taker to write notes. Those notes are saved and can be reviewed or deleted. 
+ A note-taking application. Users can write notes. Those notes are saved and can be reviewed or deleted. 
   
   ## Table of Contents 
   - [Description](#description)
@@ -31,7 +31,7 @@
   Emtpy Notes - Save icon will not appear. Click on note to the left to render the saved note.
   ![Empty Note](/assets/11-express-homework-demo-01.png)
 
-  Save Button appears when you type in both the note title and text. Click on the + symbol to clear the note.
+  Save Button appears when you type in both the note title and text. Click on the + symbol to clear the note and start over.
   ![Filled Note](/assets/11-express-homework-demo-02.png)
 
 
@@ -52,11 +52,11 @@
   ## Questions
   [GitHub Profile](https://github.com/uwlryoung)
 
-  If you have any questions, feel free to email uwlryoung@gmail.com
+  If you have any questions, feel free to email uwlryoung@gmail.com.
 
   ## Challenges and Future Improvements 
   - Add the function where users can edit an already saved note rather than having to delete it and start over. 
   - Add a function that allows users to select a category for the note which generates a button (if it's a new category). They can then switch between categories of notes.
-  - Add a "Delete All" button if you want to start over completely.
+  - Add a "Delete All" button if users want to erase all notes at once.
   - Add a "Deadline" query that gives and displays the deadline with the saved notes. If left blank, it won't appear. 
   
